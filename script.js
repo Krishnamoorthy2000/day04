@@ -29,7 +29,10 @@ request.onload = function() {
     }
 /*3.Use the same rest countries and print all countries names, region, sub-region and population*/
 for (var i = 0; i < result.length; i++) {
-    console.log("Name:"+result[i].name +",Region:"+ result[i].region +",sub-region:"+ result[i].subregion+",population:"+result[i].population);
+    console.log("Name:"+result[i].name );
+   console.log("Region:"+ result[i].region);
+   console.log("sub-region:"+ result[i].subregion);
+   console.log("population:"+result[i].population);
 }
 }
 
